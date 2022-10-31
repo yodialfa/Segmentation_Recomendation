@@ -43,8 +43,11 @@ Menunjukkan jumlah total yang dihabiskan oleh pelanggan untuk membeli produk And
 
 ### Mapping Class from Cluster
  0 Best Customers
+ 
  1 Low Spendig Pasif Customers
+ 
  2 Middle Spending Activer Customers
+ 
  3 New Customer low spending
  
 ### Recommendation for each Class

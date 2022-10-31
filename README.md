@@ -41,6 +41,10 @@ Menunjukkan jumlah total yang dihabiskan oleh pelanggan untuk membeli produk And
 | 5 | Transaksi terakhir 61 hari - 120 hari | 10  <= x < 15|7.000 < x <=  10.000|
 | 6 | Transaksi terakhir 0 hari - 60 hari | 15  =< x  |x >  10.000|
 
+
+### Clustering
+Menggunakan Algoritma K-Means terhadap scoring data dari RFM Analysis
+
 ### Mapping Class from Cluster
  0 Best Customers
  

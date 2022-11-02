@@ -4,6 +4,9 @@
 https://www.kaggle.com/datasets/lakshmi25npathi/online-retail-dataset
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 
+## Tableau Dashboarding
+https://public.tableau.com/app/profile/yodi.ramadhani.alfariz/viz/olret/Dashboard1?publish=yes
+
 ## Customer Segmentation
 ### Data Understanding
 - InvoiceNo : number code of the transacation

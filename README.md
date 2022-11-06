@@ -9,16 +9,18 @@ https://public.tableau.com/app/profile/yodi.ramadhani.alfariz/viz/olret/Dashboar
 
 ## Customer Segmentation
 ### Data Understanding
-- InvoiceNo : number code of the transacation
-- StockCode : the code of item
-- Description : the description of item
-- Quantity : count of item buying.
+- InvoiceNo : transacation code
+- StockCode : item code/ product code
+- Description : item description
+- Quantity : total item
 - InvoiceDate : date of customers transcation full with the time.
-- UnitPrice : the price per item.
+- UnitPrice : price per item.
+- CustomerID : customer code
 - Country : country of customers live.
 
 ### Business Problem
-- Segmentasi customer belum diterapkan agar strategi marketing tepat sasaran
+- Offering, diskon dan strategi marketing yang kurang terfokus memungkinkan memakan biaya yang sangat besar.
+- Diperlukannya segmentasi untuk setiap customer agar dapat melihat pola dari setiap customers.
 - Segmentasi adalah langkah awal untuk Customer Relationship Management
 
 ### Objectives
@@ -34,16 +36,6 @@ Variabel untuk mengukur nilai pelanggan berdasarkan rentang waktu (tanggal, bula
 Mengacu pada berapa kali pelanggan berinteraksi dengan produk atau melakukan transaksi dalam periode waktu tertentu.
 #### Monetary
 Menunjukkan jumlah total yang dihabiskan oleh pelanggan untuk membeli produk Anda dalam periode waktu tertentu.
-### RFM Scoring
-| Score | Recency | Frequency | Monetary |
-| ------ | ------ | ------ | ------ |
-| 1 | Transaksi terakhir 301 hari - 365 hari | 0 < x <=  3| 0 < x <=  1.000
-| 2 | Transaksi terakhir 241 hari - 300 hari| 3  <= x <  5 |1.000 < x <=  3.000|
-| 3 | Transaksi terakhir 181 hari - 240 hari | 5 <= x <  7 |3.000 < x <=  5.000|
-| 4 | Transaksi terakhir 121 hari - 180 hari| 7 <= x < 10 |5.000 < x <=  7.000|
-| 5 | Transaksi terakhir 61 hari - 120 hari | 10  <= x < 15|7.000 < x <=  10.000|
-| 6 | Transaksi terakhir 0 hari - 60 hari | 15  =< x  |x >  10.000|
-
 
 ### Clustering
 Menggunakan Algoritma K-Means terhadap scoring data dari RFM Analysis
